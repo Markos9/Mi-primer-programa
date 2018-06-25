@@ -5,6 +5,7 @@ if apetece_helado_input == "SI":
     apetece_helado = True
 elif apetece_helado_input == "NO":
     apetece_helado = False
+    print("Pues nada")
 else:
     print("Te he dicho que me digas si o no, no se que has dicho pero cuento como que no")
     apetece_helado = False
@@ -21,6 +22,6 @@ puede_permitirselo = tienes_dinero or esta_tu_tia
 esta_el_senor_de_los_helados = esta_el_senor_de_los_helados_input == "SI"
 
 if apetece_helado and puede_permitirselo and esta_el_senor_de_los_helados:
-    print("Toma tu helado")
+    print("Tomate tu helado")
 else:
     print("Pues nada")
